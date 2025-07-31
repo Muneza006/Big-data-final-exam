@@ -50,11 +50,23 @@ WHO-NCD-Risk-Projection/
 
 📅 Dataset Attributes
 
+This dataset integrates multiple health risk indicators that contribute to Non-Communicable Diseases (NCDs) across various countries and years
 
-<img width="733" height="486" alt="image" src="https://github.com/user-attachments/assets/8667c8ee-4609-4564-9560-e61a77b15006" />
+**Country**: The name of the country where the health data was recorded. Each row represents a data point for a specific country.
 
-![Dataset Preview](https://github.com/user-attachments/assets/703bbc36-0824-4d8e-a0e0-ab89e223059e)
+**Year**:	The calendar year corresponding to the record. This allows tracking health trends over time for each country.
 
+**Diabetes (%)**:	Represents the percentage of the country's population diagnosed with diabetes. A key indicator in assessing metabolic health risks.
+
+**Obesity (%)**:	The percentage of the population classified as obese, based on BMI ≥ 30. Obesity is a major contributor to NCD prevalence globally.
+
+**Tobacco Use (%)**: 	Indicates the proportion of individuals who actively use tobacco products (smoking, chewing, etc.), which is a significant NCD risk factor.
+
+**Hypertension (%)**:	The percentage of adults suffering from high blood pressure (Systolic BP ≥ 140 mmHg or Diastolic BP ≥ 90 mmHg). It reflects cardiovascular health risks.
+
+**Alcohol Consumption (Liters)**:	Average liters of pure alcohol consumed per adult (15+ years old) in a year. High alcohol consumption correlates with liver diseases and other NCDs.
+
+**Risk_Level**:	A binary indicator derived through rule-based thresholds: 1 = High NCD Risk, 0 = Low NCD Risk. This column classifies the overall risk profile.
 
 🗾️ Dataset Preview (Python df.head())
 ![Dataset Preview](https://github.com/user-attachments/assets/bdb0e769-b3bf-4c14-8661-d55db557640c)
