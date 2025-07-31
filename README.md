@@ -120,8 +120,6 @@ Designed an interactive dashboard featuring:
 
 Line Chart: NCD trends over years 
 
-
-
 Bar Chart: Country comparison for Tobacco Use
 
 Pie Chart: Risk Level distribution
@@ -134,18 +132,21 @@ Map Visualization: Global Diabetes prevalence
 
 Key Libraries:
 
-pandas
+**pandas**: For data cleaning, transformation, and manipulation (DataFrames)
 
-seaborn
+**numpy**:	Numerical operations, handling arrays efficiently
 
-matplotlib
+**seaborn**: Statistical data visualization (heatmaps, distributions)
 
-scikit-learn
+**matplotlib**: General-purpose plotting (line charts, bar plots, scatter plots)
 
-👊 Innovation Highlights
+**scikit-learn**: For KMeans clustering and model evaluation (silhouette score)
 
-. Engineered Risk_Level indicator using combined thresholds.
+** System Requirements**
 
-. Applied KMeans clustering to group countries based on multiple NCD factors.
+Python: Version	Python 3.9+ recommended
 
-. Designed a multi-layered Power BI Dashboard for insightful storytelling.
+**IDE/Tool**:	Jupyter Notebook / VS Code
+
+**Power BI	Desktop**: version for dashboard design
+
