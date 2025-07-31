@@ -69,8 +69,11 @@ This dataset integrates multiple health risk indicators that contribute to Non-C
 **Risk_Level**:	A binary indicator derived through rule-based thresholds: 1 = High NCD Risk, 0 = Low NCD Risk. This column classifies the overall risk profile.
 
 🗾️ Dataset Preview (Python df.head())
-![Dataset Preview](https://github.com/user-attachments/assets/bdb0e769-b3bf-4c14-8661-d55db557640c)
 
+
+
+
+![Dataset Preview](https://github.com/user-attachments/assets/bdb0e769-b3bf-4c14-8661-d55db557640c)
 
 📖 Data Cleaning & Exploratory Data Analysis (EDA)
 
