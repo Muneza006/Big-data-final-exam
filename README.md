@@ -53,6 +53,8 @@ WHO-NCD-Risk-Projection/
 
 <img width="733" height="486" alt="image" src="https://github.com/user-attachments/assets/8667c8ee-4609-4564-9560-e61a77b15006" />
 
+![Dataset Preview](https://github.com/user-attachments/assets/703bbc36-0824-4d8e-a0e0-ab89e223059e)
+
 
 🗾️ Dataset Preview (Python df.head())
 ![Dataset Preview](https://github.com/user-attachments/assets/bdb0e769-b3bf-4c14-8661-d55db557640c)
@@ -103,7 +105,7 @@ Designed an interactive dashboard featuring:
 
 Line Chart: NCD trends over years 
 
-![NCD_Risk_Dashboard pbix](https://github.com/user-attachments/assets/17141788-a099-47c8-a53b-5b72e10259ed)
+
 
 Bar Chart: Country comparison for Tobacco Use
 
@@ -111,7 +113,7 @@ Pie Chart: Risk Level distribution
 
 Map Visualization: Global Diabetes prevalence
 
-
+![NCD_Risk_Dashboard pbix](https://github.com/user-attachments/assets/17141788-a099-47c8-a53b-5b72e10259ed)
 
 🛠️ Installation & Requirements
 
