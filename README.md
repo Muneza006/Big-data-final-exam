@@ -49,6 +49,7 @@ WHO-NCD-Risk-Projection/
 ├── README.md
 └── requirements.txt    
 
+
 📅 Dataset Attributes
 
 This dataset integrates multiple health risk indicators that contribute to Non-Communicable Diseases (NCDs) across various countries and years
@@ -69,12 +70,16 @@ This dataset integrates multiple health risk indicators that contribute to Non-C
 
 **Risk_Level**:	A binary indicator derived through rule-based thresholds: 1 = High NCD Risk, 0 = Low NCD Risk. This column classifies the overall risk profile.
 
+
+
 🗾️ Dataset Preview (Python df.head())
 
 
 
 
 ![Dataset Preview](https://github.com/user-attachments/assets/bdb0e769-b3bf-4c14-8661-d55db557640c)
+
+
 
 📖 Data Cleaning & Exploratory Data Analysis (EDA)
 
@@ -86,10 +91,17 @@ Handled missing values and standardized formats
 
 Generated descriptive statistics
 
-Visualized correlations & distributions
+![Descriptive Statistics (df describe())](https://github.com/user-attachments/assets/5828aa29-36b3-4778-80a4-ab1ce56fcbb0)
 
 
+Visualized correlations
 
+
+![heatmap](https://github.com/user-attachments/assets/89bb5f41-0f8b-4daa-83c0-0a402b6e6476)
+
+ distributions plot
+
+ ![Distribution plot](https://github.com/user-attachments/assets/dd0f30cb-c118-4fcd-8ee9-6d8fb6a65546)
 
 
 🤖 Clustering Model - KMeans
