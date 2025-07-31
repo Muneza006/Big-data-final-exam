@@ -142,7 +142,7 @@ Key Libraries:
 
 **scikit-learn**: For KMeans clustering and model evaluation (silhouette score)
 
-** System Requirements**
+System Requirements
 
 Python: Version	Python 3.9+ recommended
 
