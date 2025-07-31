@@ -55,6 +55,7 @@ WHO-NCD-Risk-Projection/
 
 
 🗾️ Dataset Preview (Python df.head())
+![Dataset Preview](https://github.com/user-attachments/assets/bdb0e769-b3bf-4c14-8661-d55db557640c)
 
 
 📖 Data Cleaning & Exploratory Data Analysis (EDA)
@@ -83,7 +84,8 @@ Applied KMeans Clustering to categorize countries into NCD risk clusters based o
 
 . Hypertension (%)
 
-> 
+ ![Kmeans Obesity vs Diabetes](https://github.com/user-attachments/assets/17d975ad-0b2e-4e87-86a3-98e3bf2bd1b0)
+
 
 📊 Model Evaluation
 
@@ -91,20 +93,24 @@ Applied KMeans Clustering to categorize countries into NCD risk clusters based o
 
 . Visualized cluster distribution.
 
-![Uploading image.png…]() 
+ ![Cluster Distribution](https://github.com/user-attachments/assets/67cf68cc-ac97-4511-9739-c340c3b6b2dd)
+
 
 
 💻 Power BI Dashboard
 
 Designed an interactive dashboard featuring:
 
-Line Chart: NCD trends over years
+Line Chart: NCD trends over years 
+
+![NCD_Risk_Dashboard pbix](https://github.com/user-attachments/assets/17141788-a099-47c8-a53b-5b72e10259ed)
 
 Bar Chart: Country comparison for Tobacco Use
 
 Pie Chart: Risk Level distribution
 
 Map Visualization: Global Diabetes prevalence
+
 
 
 🛠️ Installation & Requirements
