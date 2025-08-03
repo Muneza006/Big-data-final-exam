@@ -2,15 +2,15 @@
 [![Power BI](https://img.shields.io/badge/Power%20BI-Analysis-yellow.svg)](https://powerbi.microsoft.com)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green.svg)](https://pandas.pydata.org)
 
-Student: Muneza Pascal
+** 🧑 Student: Muneza Pascal**
 
-ID: 26630
+**🆔 ID: 26630**
 
-Course: INSY 8413 | Introduction to Big Data Analytics
+ **Course: INSY 8413 | Introduction to Big Data Analytics**
 
-FINAL- EXAM CAPSTONE PROJECT
+**FINAL- EXAM CAPSTONE PROJECT**
 
-Instructor: Eric Maniraguha
+**Instructor: Eric Maniraguha**
 
 
 # WHO Non-Communicable Diseases (NCD) Risk Projection Project 🌍📊
@@ -282,23 +282,28 @@ pip install -r requirements.txt
 
 ---
 
-## 🔗 Repository Guidelines
+```
+Key Libraries:
 
-* Screenshots are placed in `/images/` folder.
-* Notebooks are organized sequentially under `/notebooks/`.
-* Power BI dashboard in `/powerbi_dashboard/`.
-* Data files in `/data/processed/`.
+**pandas**: For data cleaning, transformation, and manipulation (DataFrames)
 
----
+**numpy**:	Numerical operations, handling arrays efficiently
 
-## 🌟 License
+**seaborn**: Statistical data visualization (heatmaps, distributions)
 
-MIT License - Free to use for educational purposes.
+**matplotlib**: General-purpose plotting (line charts, bar plots, scatter plots)
 
----
+**scikit-learn**: For KMeans clustering and model evaluation (silhouette score)
 
-📢 **Remember:** Always maintain Academic Integrity. Make sure you understand every line of code and every visual you create!
+System Requirements
 
----
+Python: Version	Python 3.9+ recommended
+
+**IDE/Tool**:	Jupyter Notebook / VS Code
+
+**Power BI	Desktop**: version for dashboard design
+```
+
+
 
 # 🎉 Thank You & Happy Analyzing! 🎉
