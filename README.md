@@ -2,6 +2,17 @@
 [![Power BI](https://img.shields.io/badge/Power%20BI-Analysis-yellow.svg)](https://powerbi.microsoft.com)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green.svg)](https://pandas.pydata.org)
 
+Student: Muneza Pascal
+
+ID: 26630
+
+Course: INSY 8413 | Introduction to Big Data Analytics
+
+FINAL- EXAM CAPSTONE PROJECT
+
+Instructor: Eric Maniraguha
+
+
 # WHO Non-Communicable Diseases (NCD) Risk Projection Project 🌍📊
 
 Welcome to the **WHO NCD Risk Projection** project repository! This project leverages **Python** for data cleaning & modeling, and **Power BI** for interactive visualization, to analyze and communicate the global burden of **Non-Communicable Diseases (NCDs)** such as **Diabetes**, **Obesity**, **Tobacco Use**, **Hypertension**, and **Alcohol Consumption** across various countries and years.
@@ -76,10 +87,13 @@ Performed using **Pandas**, **Seaborn**, and **Matplotlib**.
 
 ### Visual Outputs:
 
-> 📊 Correlation Heatmap (Insert Screenshot: `images/heatmap.png`)
-> 🌍 Diabetes Distribution Plot (Insert Screenshot: `images/diabetes_dist.png`)
+> 📊 Correlation Heatmap 
 
 ![heatmap](https://github.com/user-attachments/assets/89bb5f41-0f8b-4daa-83c0-0a402b6e6476)
+
+> 🌍 Diabetes Distribution Plot 
+
+![Distribution plot](https://github.com/user-attachments/assets/dd0f30cb-c118-4fcd-8ee9-6d8fb6a65546)
 
 
 ### 📃 Sample Code for EDA Preview
@@ -90,7 +104,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load Dataset
-df = pd.read_csv('data/processed/NCD_Risk_Predictions.csv')
+df = pd.read_csv(r'C:/Users/Administrator/.jupyter/Fnal Exam/NCD_Risk_Predictions.csv')
 
 # Descriptive Statistics
 print(df.describe())
@@ -163,8 +177,9 @@ Applied **KMeans Clustering** to categorize countries into NCD risk clusters bas
 ### Visual Outputs:
 
 > 🔸 KMeans Scatter Plot (Obesity vs Diabetes)
-> *(Insert Screenshot: **`images/kmeans_scatter.png`**)*
 
+ ![Kmeans Obesity vs Diabetes](https://github.com/user-attachments/assets/17d975ad-0b2e-4e87-86a3-98e3bf2bd1b0)
+ 
 ### Python Code Sample
 
 ```python
@@ -193,7 +208,8 @@ plt.show()
 
 > 🔹 Cluster Distribution Pie Chart
 > 📊 Pairplot for Cluster Insights
-> *(Insert Screenshots: **`images/cluster_pie.png`**, **`images/pairplot.png`**)*
+
+![Cluster Distribution](https://github.com/user-attachments/assets/67cf68cc-ac97-4511-9739-c340c3b6b2dd)
 
 ### Sample Python Code
 
