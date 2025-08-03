@@ -57,7 +57,8 @@ WHO-NCD-Risk-Projection/
 
 ### 🗽️ Dataset Preview (Python `df.head()`)
 
-> *(Insert Screenshot Here: **`images/df_head.png`**)*
+
+![Dataset Preview](https://github.com/user-attachments/assets/bdb0e769-b3bf-4c14-8661-d55db557640c)
 
 ---
 
@@ -71,10 +72,15 @@ Performed using **Pandas**, **Seaborn**, and **Matplotlib**.
 * Generated descriptive statistics
 * Visualized correlations & distributions
 
+  ![Descriptive Statistics (df describe())](https://github.com/user-attachments/assets/5828aa29-36b3-4778-80a4-ab1ce56fcbb0)
+
 ### Visual Outputs:
 
 > 📊 Correlation Heatmap (Insert Screenshot: `images/heatmap.png`)
 > 🌍 Diabetes Distribution Plot (Insert Screenshot: `images/diabetes_dist.png`)
+
+![heatmap](https://github.com/user-attachments/assets/89bb5f41-0f8b-4daa-83c0-0a402b6e6476)
+
 
 ### 📃 Sample Code for EDA Preview
 
@@ -225,7 +231,7 @@ SWITCH(
 
 ### Screenshot:
 
-> 👁️ *(Insert Full Power BI Dashboard Screenshot: **`images/powerbi_dashboard.png`**)*
+![NCD_Risk_Dashboard pbix](https://github.com/user-attachments/assets/17141788-a099-47c8-a53b-5b72e10259ed)
 
 ---
 
