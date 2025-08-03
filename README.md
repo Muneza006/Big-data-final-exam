@@ -85,6 +85,20 @@ Performed using **Pandas**, **Seaborn**, and **Matplotlib**.
 
   ![Descriptive Statistics (df describe())](https://github.com/user-attachments/assets/5828aa29-36b3-4778-80a4-ab1ce56fcbb0)
 
+###visual input:  
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Select only numeric columns (excluding 'Country' and 'Year' if they are not needed)
+numeric_df = df.select_dtypes(include=['float64', 'int64'])
+
+plt.figure(figsize=(10,6))
+sns.heatmap(numeric_df.corr(), annot=True, cmap='coolwarm')
+plt.title("Correlation Heatmap of NCD Indicators")
+plt.show()
+```
+
 ### Visual Outputs:
 
 > 📊 Correlation Heatmap 
