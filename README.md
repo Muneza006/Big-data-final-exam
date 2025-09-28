@@ -8,7 +8,7 @@
 
  **Course: INSY 8413 | Introduction to Big Data Analytics**
 
-**FINAL- EXAM CAPSTONE PROJECT**
+**FINAL- EXAM CAPSTONE PROJECT** 
 
 **Instructor: Eric Maniraguha**
 
